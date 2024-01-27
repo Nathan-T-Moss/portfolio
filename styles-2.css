@@ -1,0 +1,122 @@
+html {
+    scroll-behavior: smooth;
+    scroll-snap-type: y mandatory;
+    scroll-padding-top: 6svh;
+}
+
+body {
+    background-color: #001219;
+}
+
+.wrapper {
+    position: relative;
+}
+
+.fixedNavbar {
+    /* display: none; */
+    
+    height: 6svh;
+    background-color: #ee9b00;
+    position: sticky;
+    top: 0px;
+    padding: 10px 0px;
+}
+
+.wrapper1 {
+    min-height: 94svh;
+    background-color: #0a9396;
+    scroll-snap-align: start;
+    scroll-snap-stop: normal;
+    padding-top: 6svh
+}
+
+.wrapper2 {
+    min-height: 94svh;
+    background-color: #005f73;
+    scroll-snap-align: start;
+    scroll-snap-stop: normal;
+    padding-top: 6svh
+}
+
+.wrapper3 {
+    min-height: 94svh;
+    background-color: #0a9396;
+    scroll-snap-align: start;
+    scroll-snap-stop: normal;
+    padding-top: 6svh
+}
+
+.wrapper4 {
+    min-height: 94svh;
+    background-color: #005f73;
+    scroll-snap-align: start;
+    scroll-snap-stop: normal;
+    padding-top: 6svh
+}
+
+
+html, body {
+    padding-left: 0;
+    margin-left: 0;
+    padding-right: 0;
+    margin-right: 0;
+}
+
+.fixedNavbar {
+    font-family: 'Roboto', sans-serif;
+    color: white;
+    text-decoration: none;
+    display: flex;
+    justify-content: space-between;
+}
+
+.nameplate {
+    color: white;
+    font-weight: bold;
+}
+
+.fixedNavbar ul {
+    list-style-type: none;
+}
+
+.dropdownButton {
+    background-color: #005f73;
+    color: white;
+    padding: 16px;
+    font-size: 16px;
+    border: none;
+}
+
+
+.dropdown {
+    position: relative;
+    display: inline-block;
+}
+
+.dropdownContent {
+    display: none;
+    position: absolute;
+    background-color: #f1f1f1;
+
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+}
+
+
+.dropdownContent a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+}
+
+.dropdownContent a:hover {
+    background-color: #ddd;
+}
+
+.dropdown:hover .dropdownContent {
+    display: block;
+}
+
+/* .dropdown:hover .dropdownButton {
+    background-color: #3e8e41;
+} */
