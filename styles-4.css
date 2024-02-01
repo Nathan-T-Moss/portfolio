@@ -1,0 +1,175 @@
+html {
+    scroll-behavior: smooth;
+}
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Roboto', sans-serif;
+}
+
+body {
+    background-color: #292929;  
+}
+
+.header {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 25px 10%;
+    background-color: #292929;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    z-index: 100;
+    
+}
+
+.logo {
+    pointer-events: none;
+    cursor: default;
+    font-size: 30px;
+    color: #f0f7f4;
+    text-decoration: none;
+    font-weight: 600;
+}
+
+
+
+.navbar a {
+    font-size: 20px;
+    color: #f0f7f4;
+    text-decoration: none;
+    font-weight: 450;
+    margin-left: 30px;
+    /* scroll-behavior: smooth; */
+}
+
+.navbar a:hover {
+    color: #b3bfb8;
+}
+
+.pageSection {
+    color: #f0f7f4;
+    height: 100lvh;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 12%;
+    line-height: 50px;
+}
+
+#home h1 {
+    font-size: 50px;
+}
+
+#home h3 {
+    padding-top: 15px;
+    font-size: 40px;
+    color: #995d81;
+    font-weight: 800;
+}
+
+#titlecolorPop {
+    color: #f98948;
+}
+
+.homeContent {
+    width: 60%;
+}
+
+.imgContainer img {
+    padding-left: 20px;
+    border-radius: 50%;
+}
+
+.skillsContent h1 {
+    color: #f98948;
+    font-size: 50px;
+    padding-bottom: 30px;
+}
+
+.skillsContent i {
+    font-size: 150px;
+}
+
+.skillsContent ul {
+    max-width: 100%;
+    /* background-color: yellowgreen; */
+    list-style: none;
+    font-size: 30px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    text-align: center;
+
+}
+
+.thumbRow {
+    display: flex;
+    justify-content: space-around;
+
+}
+
+.thumbItem{
+    display: flex;
+    align-items: flex-end;
+    justify-content: center ;
+    height: 300px;
+    width: 300px;
+    border-radius: 15%;
+    margin: 10px;
+    text-decoration: none!important;
+    overflow: hidden;
+}
+
+#hangman {
+    background-image: url(images/hangman.jpg);
+    background-size: cover;
+}
+
+#charity {
+    background-image: url(images/charity-site-image.png);
+    background-size: cover;
+}
+
+#goat {
+    background-image: url(images/background_gizz.png);
+    background-size: cover   ;
+}
+
+.thumbItem h3 {
+    background-color: #b3bfb8;
+    border-radius: 40%;
+}
+
+.projectsContent h1{
+    font-size: 50px;
+    color: #f98948;
+}
+
+.contactContent h1 {
+    font-size: 50px;
+    color: #f98948;
+}
+
+.contactLinks {
+    font-size: 100px;
+    /* color: red; */
+}
+
+.contactLinks i {
+    color: #f0f7f4;
+    text-decoration: none;
+}
+
+.contactLinks i:hover {
+    color: #b3bfb8;
+}
+
+
+
