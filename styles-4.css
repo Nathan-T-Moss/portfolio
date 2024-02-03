@@ -1,4 +1,5 @@
 html {
+    scroll-snap-type: y mandatory;
     scroll-behavior: smooth;
 }
 
@@ -11,6 +12,8 @@ html {
 }
 
 body {
+    width: auto;
+    display: flex-end;
     background-color: #292929;  
 }
 
@@ -53,6 +56,9 @@ body {
 }
 
 .pageSection {
+    width: 100%;
+    height: auto;
+    margin: 2em;
     color: #f0f7f4;
     height: 100lvh;
     display: flex;
@@ -60,6 +66,12 @@ body {
     justify-content: space-between;
     padding: 0 12%;
     line-height: 50px;
+    /* scroll-snap-align: start; */
+}
+
+#home {
+    display: flex;
+    flex-wrap: wrap;
 }
 
 #home h1 {
@@ -81,9 +93,19 @@ body {
     width: 60%;
 }
 
+.imgContainer {
+    width: 40%;
+    float: left;
+}
+
 .imgContainer img {
+    max-width: 50%;
+    height: auto;
     padding-left: 20px;
     border-radius: 50%;
+}
+.skillsContent {
+    wrap
 }
 
 .skillsContent h1 {
@@ -101,8 +123,9 @@ body {
     /* background-color: yellowgreen; */
     list-style: none;
     font-size: 30px;
-    display: flex;
+    display: inline-flex;
     flex-direction: row;
+    flex-wrap: wrap;
     justify-content: space-between;
     align-items: center;
     text-align: center;
@@ -112,6 +135,7 @@ body {
 .thumbRow {
     display: flex;
     justify-content: space-around;
+    flex-wrap: wrap;
 
 }
 
@@ -146,6 +170,8 @@ body {
     background-color: #b3bfb8;
     border-radius: 40%;
 }
+
+
 
 .projectsContent h1{
     font-size: 50px;
